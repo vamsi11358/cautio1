@@ -1,0 +1,40 @@
+.cardContainer {
+  position: relative;
+  width: 100vw; /* Adjust to full viewport width */
+  height: 100vh; /* Adjust to full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.card {
+  position: relative;
+  background-color: #f7f3f3;
+  width: 80vw;
+  max-width: 260px;
+  height: 300px;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.30);
+  border-radius: 20px;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.card img {
+  width: 100%; /* Make the image fill the entire card */
+  height: auto;
+  object-fit: cover; /* Cover the entire space of the image */
+}
+
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background for better readability */
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: red;
+}

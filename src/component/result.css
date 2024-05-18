@@ -1,0 +1,49 @@
+
+/* ResultsPage.css */
+
+.resultsPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .resultsPage h1 {
+    margin-bottom: 20px;
+  }
+  
+  .likedDislikedContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .section {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f7f3f3;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .cardContent {
+    padding: 20px;
+  }
+  
+.card img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+  }
+  .card h3 {
+    margin: 10px 0;
+    color: red;
+  }
+  
